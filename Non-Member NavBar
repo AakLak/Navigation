@@ -1,4 +1,4 @@
-<<!-- NAVBAR for REGISTERED NON-MEMBER USER -->
+<!-- NAVBAR for REGISTERED NON-MEMBER USER -->
 
 <div class="">
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -14,7 +14,7 @@
 		<div class="collapse navbar-collapse js-navbar-collapse">
 
 
-<<!-- BEGIN RESOURCES MEGA_MENU -->		
+<!-- BEGIN RESOURCES MEGA_MENU -->		
 			<ul class="nav navbar-nav">
 				<li class="dropdown mega-dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
@@ -57,9 +57,9 @@
 					</ul>
 				</li>
 			</ul>	
-<<!-- END RESOURCES MEGA_MENU -->
+<!-- END RESOURCES MEGA_MENU -->
 
-<<!-- BEGIN LEARNING MEGA_MENU -->			
+<!-- BEGIN LEARNING MEGA_MENU -->			
 			<ul class="nav navbar-nav">
 				<li class="dropdown mega-dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
@@ -188,7 +188,7 @@
 								<li class="dropdown-header">Featured Career Tool</li>
 								<li><a href="#"><img src="https://brmi.mpxstage.com/images/eebefd5c-fe16-47fa-a050-add95c2a6f6a.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
 								<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
-								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brmi.mpxstage.com/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Participate Now</button></li>
+								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
 							</ul>
 						</li>
 					</ul>
