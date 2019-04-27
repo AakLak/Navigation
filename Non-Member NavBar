@@ -103,7 +103,7 @@
 								<li><a href="#">Request a Proposal from a Registered Provider</a></li>
 								<li><a href="#">Become a Registered Provider</a></li>	
 								<li><br><br></li>
-								<li><a href="#"><img src="https://brmi.mpxstage.com/images/bdb69dd8-98f4-46b5-a541-ffd5c31810a5.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>										
+								<li><a href="#"><img src="https://my.brm.institute/images/bdb69dd8-98f4-46b5-a541-ffd5c31810a5.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>										
 							</ul>
 						</li>
 						
@@ -119,17 +119,17 @@
 					<ul class="dropdown-menu mega-dropdown-menu row">						
 						<li class="col-sm-4">
 							<ul>
-								<li class="dropdown-header"><a href="https://brmi.mpxstage.com/BRMConnect-2019">BRMConnect 2019: New Orleans</a></li>	
-								<li><a href="https://brmi.mpxstage.com/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
-								<li><a href="https://brmi.mpxstage.com/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
-								<li><a href="https://brmi.mpxstage.com/storytellers">Storytellers</a></li>
+								<li class="dropdown-header"><a href="https://my.brm.institute/BRMConnect-2019">BRMConnect 2019: New Orleans</a></li>	
+								<li><a href="https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
+								<li><a href="https://my.brm.institute/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
+								<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
 								<li><a href="https://staging.brm.institute/brmconnect-events/">Venue</a></li>
 								<li class="dropdown-header">Knowledge Offerings at BRMConnect 2019</li>
-								<li><a href="https://brmi.mpxstage.com/session-detail?z516f79e45f72499ab180366410196746=00BC.BRMP&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
-								<li><a href="https://brmi.mpxstage.com/session-detail?z516f79e45f72499ab180366410196746=00BC.SPA&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
-								<li><a href="https://brmi.mpxstage.com/session-detail?z516f79e45f72499ab180366410196746=00BC.FUND&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
-								<li><a href="https://brmi.mpxstage.com/session-detail?z516f79e45f72499ab180366410196746=00BC.CBRM&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
-								<li><a href="https://brmi.mpxstage.com/session-detail?z516f79e45f72499ab180366410196746=00BC.BVFO&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>									
+								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BRMP&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
+								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.SPA&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
+								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.FUND&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
+								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.CBRM&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
+								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BVFO&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>									
 								<li class="dropdown-header"><a href="#">BRMConnect Sponsors</a></li>							
 
 							</ul>									
@@ -151,8 +151,8 @@
 						<li class="col-sm-4">
 							<ul>
 								<li class="dropdown-header">Featured Event</li>
-								<li><a href="https://staging.brm.institute/brmconnect-events/"><img src="https://brmi.mpxstage.com/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brmi.mpxstage.com/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
+								<li><a href="https://staging.brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
+								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
 							</ul>
 						</li>								
 					</ul>
@@ -185,7 +185,7 @@
 						<li class="col-sm-4">
 							<ul>
 								<li class="dropdown-header">Featured Career Tool</li>
-								<li><a href="#"><img src="https://brmi.mpxstage.com/images/eebefd5c-fe16-47fa-a050-add95c2a6f6a.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
+								<li><a href="#"><img src="https://my.brm.institute/images/eebefd5c-fe16-47fa-a050-add95c2a6f6a.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
 								<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
 								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
 							</ul>
@@ -202,21 +202,21 @@
 					<ul class="dropdown-menu mega-dropdown-menu row">					
 						<li class="col-sm-4">
 							<ul>
-								<li class="dropdown-header"><a href="https://brmi.mpxstage.com/ind-plans">Individual Membership</a></li>							
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Prof&amp;z558b4e4feee144ab983653af4dd716d1=00Prof">Professional Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Stud&amp;z558b4e4feee144ab983653af4dd716d1=00Stud">Student Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
+								<li class="dropdown-header"><a href="https://my.brm.institute/ind-plans">Individual Membership</a></li>							
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Prof&amp;z558b4e4feee144ab983653af4dd716d1=00Prof">Professional Membership</a></li>
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Stud&amp;z558b4e4feee144ab983653af4dd716d1=00Stud">Student Membership</a></li>
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
 								<li><a href="#">Explorer Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/ind-plans">Join or Renew as an Individual</a></li>
+								<li><a href="https://my.brm.institute/ind-plans">Join or Renew as an Individual</a></li>
 							</ul>
 						</li>	
 						<li class="col-sm-4">
 							<ul>
-								<li class="dropdown-header"><a href="https://brmi.mpxstage.com/org-plans">Organizational Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp&amp;z558b4e4feee144ab983653af4dd716d1=00Corp">Corporate Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>
-								<li><a href="https://brmi.mpxstage.com/org-plans">Join or Renew as an Organization</a></li>
+								<li class="dropdown-header"><a href="https://my.brm.institute/org-plans">Organizational Membership</a></li>
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp&amp;z558b4e4feee144ab983653af4dd716d1=00Corp">Corporate Membership</a></li>
+								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>
+								<li><a href="https://my.brm.institute/org-plans">Join or Renew as an Organization</a></li>
 							</ul>
 						</li>					
 						<li class="col-sm-4">
@@ -283,16 +283,16 @@
 <!-- BEGIN MARKETPLACE MENU -->				
 				<li class="dropdown"><a class="dropdown-toggle" href="#">Marketplace<span class="caret"></span></a>	
 					<ul class="dropdown-menu">
-					  <li><a href="https://brmi.mpxstage.com/books">Publications</a></li>
-					  <li><a href="https://brmi.mpxstage.com/memberships">Memberships</a></li>
-					  <li><a href="https://brmi.mpxstage.com/events">Events</a></li>
+					  <li><a href="https://my.brm.institute/books">Publications</a></li>
+					  <li><a href="https://my.brm.institute/memberships">Memberships</a></li>
+					  <li><a href="https://my.brm.institute/events">Events</a></li>
 					  <li class="divider"></li>
-					  <li><a href="https://brmi.mpxstage.com/brm-marketplace">Full Marketplace</a></li>
+					  <li><a href="https://my.brm.institute/brm-marketplace">Full Marketplace</a></li>
 					</ul>	
 				</li>
 <!-- END MARKETPLACE MENU -->	
 
-				<li><a href="https://brmi.mpxstage.com/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+				<li><a href="https://my.brm.institute/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 				
 <!-- BEGIN HELP MENU -->					
 				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
@@ -307,9 +307,9 @@
 <!-- BEGIN USER MENU -->	
 				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" title="User">{{CurrentUserName}}<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-					  <li><a href="https://brmi.mpxstage.com/my-brm-profile?tab=personalinfo">My Profile</a></li>
-					  <li><a href="https://brmi.mpxstage.com/account/logout.aspx">Logout</a></li>
-					  <li><a href="https://brmi.mpxstage.com/administration">Admin</a></li>
+					  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
+					  <li><a href="https://my.brm.institute/account/logout.aspx">Logout</a></li>
+					  <li><a href="https://my.brm.institute/administration">Admin</a></li>
 					</ul>
 				</li>	
 <!-- END USER MENU -->	
