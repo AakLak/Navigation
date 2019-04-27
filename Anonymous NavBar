@@ -166,7 +166,7 @@
 					<ul class="dropdown-menu mega-dropdown-menu row">					
 						<li class="col-sm-4">
 							<ul>
-								<li class="dropdown-header"><a href="https://jobs.brm.institute/login/?goto=%2Faccount%2F&msg=1">Job Seekers</a></li>							
+								<li class="dropdown-header"><a href="https://jobs.brm.institute/login/?goto=%2Faccount%2F&amp;msg=1">Job Seekers</a></li>							
 								<li><a href="https://jobs.brm.institute/jobseeker/search/results/">Find a Job</a></li>
 								<li><a href="#">Job Summaries and Salaries</a></li>
 								<li><a href="#">Coaching and Mentoring</a></li>
