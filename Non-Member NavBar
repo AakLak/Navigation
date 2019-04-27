@@ -103,7 +103,7 @@
 								<li><a href="#">Request a Proposal from a Registered Provider</a></li>
 								<li><a href="#">Become a Registered Provider</a></li>	
 								<li><br><br></li>
-								<li><a href="#"><img src="https://my.brm.institute/images/bdb69dd8-98f4-46b5-a541-ffd5c31810a5.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>										
+								<li><a href="#"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>										
 							</ul>
 						</li>
 						
@@ -185,7 +185,7 @@
 						<li class="col-sm-4">
 							<ul>
 								<li class="dropdown-header">Featured Career Tool</li>
-								<li><a href="#"><img src="https://my.brm.institute/images/eebefd5c-fe16-47fa-a050-add95c2a6f6a.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
+								<li><a href="#"><img src="https://my.brm.institute/images/62efd608-78c9-4aa1-a2d7-4786c5692f90.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
 								<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
 								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
 							</ul>
