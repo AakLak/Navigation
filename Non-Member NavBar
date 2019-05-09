@@ -1,320 +1,329 @@
 <!-- NAVBAR for REGISTERED NON-MEMBER USER -->
 
-<div class="">
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="navbar-header">
-		  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#"><img src="https://staging.brm.institute/wp-content/themes/brmi/images/brm-institute-logo.png"></a>
-		</div>
-		<div class="collapse navbar-collapse js-navbar-collapse">
+<div class="navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-upper">
+	<ul class="nav navbar-nav navbar-right">
+	
+	<!-- BEGIN MARKETPLACE MENU -->
+		<li class="dropdown"><a class="dropdown-toggle" href="#">Marketplace<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			  <li><a href="https://my.brm.institute/books">Publications</a></li>
+			  <li><a href="https://my.brm.institute/memberships">Memberships</a></li>
+			  <li><a href="https://my.brm.institute/events-listing">Events</a></li>
+			  <li class="divider"></li>
+			  <li><a href="https://my.brm.institute/brm-marketplace">Full Marketplace</a></li>
+			</ul>
+		</li>
+	 <!-- END MARKETPLACE MENU -->
+	 
+	  <li><a href="/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+	  
+	<!-- BEGIN HELP MENU -->	  
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		  <li><a href="https://staging.brm.institute/faqs/">FAQs</a></li>
+		  <li><a href="https://staging.brm.institute/ip-request/">Intellectual Property Request</a></li>
+		  <li><a href="https://staging.brm.institute/contact/">Contact BRM Institute</a></li>
+		</ul>
+	  </li>
+	<!-- END HELP MENU -->		
 
+	<!-- BEGIN PROFILE MENU -->		
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Link: #">Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
+		  <li><a href="https://my.brm.institute/account/logout.aspx">Logout</a></li>
+		  <li><a href="https://my.brm.institute/administration">Admin</a></li>
+		</ul>
+	  </li>
+	<!-- END PROFILE MENU -->		  
+	  
+	</ul>
+  </nav>
+  <nav class="navbar navbar-default">
+	<div class="navbar-header">
+	  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+  </button>
+	  <a class="navbar-brand" href="https://staging.brm.institute/"><img src="https://files.mpxlive.com/Uploads/Images/live/brmi/76956830-2df4-48f7-975c-70481e8d5cce.png"></a>
+	</div>
 
-<!-- BEGIN RESOURCES MEGA_MENU -->		
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">
-					
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/news-events/">Articles</a></li>
-								<li><a href="https://staging.brm.institute/category/brm_capability/">BRM Capability</a></li>
-								<li><a href="https://staging.brm.institute/category/professional_development/">Professional Development</a></li>
-								<li><a href="https://staging.brm.institute/category/research/">Research</a></li>
-								<li><a href="https://staging.brm.institute/category/brm-community/">BRM Community</a></li>
-								<li><a href="https://staging.brm.institute/category/brm-philosophy">BRM as a Philosophy</a></li>
-							</ul>
-						</li>													
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header">Get Involved</li>
-								<li><a href="https://staging.brm.institute/communities-of-interest/">Communities of Interest</a></li>
-								<li><a href="https://staging.brm.institute/get-involved/join-brm-contributor-network/">BRM Contributor Network</a></li>
-								<li><a href="https://staging.brm.institute/volunteer-opportunities/">Volunteer Opportunities</a></li>
-								<li class="dropdown-header">Network</li>
-								<li><a href="#">Members Directory</a></li>
-								<li><a href="#">Collaborate with Members</a></li>								
-							</ul>
-						</li>							
-						<li class="col-sm-4">
-							<ul>							
-								<li class="dropdown-header"><a href="#">BRM Body of Knowledge</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">BRM Publications</a></li>										
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/high-demand-brm-knowledge/">Webinar Symposium</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">Shared Templates and Examples</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/benchmarking/">BRM Benchmark</a></li>							
-							</ul>
-						</li>								
-					</ul>
-				</li>
-			</ul>	
-<!-- END RESOURCES MEGA_MENU -->
+	<div class="collapse navbar-collapse js-navbar-collapse">
+	  <ul class="nav navbar-nav">
+	  
+		<!-- BEGIN RESOURCES MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
 
-<!-- BEGIN LEARNING MEGA_MENU -->			
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/events/" target=" _blank">Scheduled Courses and Workshops</a></li>	
-								<li><a href="https://staging.brm.institute/events/#categories=31834&amp;view=posterboard" target=" _blank">BRM Executive Brief</a></li>
-								<li><a href="https://staging.brm.institute/events/#categories=27093&amp;view=posterboard" target=" _blank">BRM Fundamentals</a></li>										
-								<li><a href="https://staging.brm.institute/events/#categories=27083&amp;view=posterboard" target=" _blank">BRMP<sup>®</sup></a></li>
-								<li><a href="https://staging.brm.institute/events/#categories=27086&amp;view=posterboard" target=" _blank">CBRM<sup>®</sup></a></li>
-								<li><a href="https://staging.brm.institute/events/#categories=27092&amp;view=posterboard" target=" _blank">Strategic Partnering Approach</a></li>
-								<li><a href="https://staging.brm.institute/events/#categories=27094&amp;view=posterboard" target=" _blank">Becoming a Value-Focused Organization</a></li>										
-								<li class="dropdown-header"><a href="https://staging.brm.institute/events/" target=" _blank">Global Event Calender</a></li>							
-								<li><a href="https://staging.brm.institute/events/#categories=27081&amp;view=posterboard" target=" _blank">BRM Institute Webinars</a></li>
-								<li><a href="https://staging.brm.institute/events/#categories=27090&amp;view=posterboard" target=" _blank">BRM Networking Events</a></li>
-							</ul>
-						</li>							
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header">Knowledge Offerings: The Path to Success</li>
-								<li><a href="https://staging.brm.institute/professional-development/business-relationship-management-executive-brief/">BRM Executive Brief</a></li>
-								<li><a href="https://staging.brm.institute/professional-development/brm-fundamentals/">BRM Fundamentals</a></li>
-								<li class="divider"></li>
-								<li><a href="https://staging.brm.institute/professional-development/business-relationship-management-professional-brmp/">BRMP<sup>®</sup> Foundations Certification</a></li>
-								<li><a href="https://staging.brm.institute/professional-development/certified-business-relationship-manager-cbrm/">CBRM<sup>®</sup> Practitioner Certification</a></li>
-								<li><a href="https://staging.brm.institute/cbrm-cpd-expectations/">Continuing Professional Development (CPDs)</a></li>
-								<li class="divider"></li>		
-								<li><a href="https://staging.brm.institute/professional-development/strategic-partnering-approach/">Strategic Partnering Approach</a></li>
-								<li><a href="https://staging.brm.institute/professional-development/becoming-value-focused-organization/">Becoming a Value-Focused Organization</a></li>							
-								<li><a href="https://staging.brm.institute/professional-development/business-value-ability-organization-assessment/">Business Value Ability: Organization Assessment</a></li>		
-								<li class="divider"></li>		
-								<li><a href="https://staging.brm.institute/certificate-of-experience/">BRM Certificates of Experience</a></li>
-								<li><a href="https://staging.brm.institute/professional-development/master-of-business-relationship-management-mbrm/">MBRM<sup>®</sup> Master of BRM</a></li>													
-							</ul>
-						</li>
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header">Registered Providers of BRM Knowledge Offerings</li>							
-								<li><a href="#">Search for a Registered Provider</a></li>
-								<li><a href="#">Request a Proposal from a Registered Provider</a></li>
-								<li><a href="#">Become a Registered Provider</a></li>	
-								<li><br><br></li>
-								<li><a href="#"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>										
-							</ul>
-						</li>
-						
-					</ul>
-				</li>
-			</ul>	
-<!-- END LEARNING MEGA_MENU -->
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
 
-<!-- BEGIN PROGRAMS MEGA_MENU -->			
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">						
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://my.brm.institute/BRMConnect-2019">BRMConnect 2019: New Orleans</a></li>	
-								<li><a href="https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
-								<li><a href="https://my.brm.institute/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
-								<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
-								<li><a href="https://staging.brm.institute/brmconnect-events/">Venue</a></li>
-								<li class="dropdown-header">Knowledge Offerings at BRMConnect 2019</li>
-								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BRMP&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
-								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.SPA&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
-								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.FUND&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
-								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.CBRM&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
-								<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BVFO&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>									
-								<li class="dropdown-header"><a href="#">BRMConnect Sponsors</a></li>							
+			<li class="col-sm-4">
 
-							</ul>									
-						</li>						
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/benchmarking/">BRM Benchmarking</a></li>
-								<li class="divider"></li>	
-								<li class="dropdown-header"><a href="#">Awards and Recognition</a></li>
-								<li><a href="#">The Arnie Award</a></li>
-								<li><a href="#">Global BRM Excellence Awards</a></li>
-								<li><a href="#">Top BRM Awards</a></li>
-								<li><a href="#">BRM Fellows</a></li>
-								<li><a href="#">Make a Nomination</a></li>										
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/events/" target=" _blank">Global Calendar</a></li>						
-							</ul>									
-						</li>									
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header">Featured Event</li>
-								<li><a href="https://staging.brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
-							</ul>
-						</li>								
-					</ul>
-				</li>
-			</ul>	
-<!-- END PROGRAMS MEGA_MENU -->
+			  <ul>
+				<li><a  class="dropdown-header" href="https://staging.brm.institute/news-events/">Articles</a></li>
+				<li><a href="https://staging.brm.institute/category/brm_capability/">BRM Capability</a></li>
+				<li><a href="https://staging.brm.institute/category/professional_development/">Professional Development</a></li>
+				<li><a href="https://staging.brm.institute/category/research/">Research</a></li>
+				<li><a href="https://staging.brm.institute/category/brm-community/">BRM Community</a></li>
+				<li><a href="https://staging.brm.institute/category/brm-philosophy">BRM as a Philosophy</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a  class="dropdown-header" href="https://staging.brm.institute/get-involved">Get Involved</a></li>
+				<li><a href="https://staging.brm.institute/communities-of-interest/">Communities of Interest</a></li>
+				<li><a href="https://staging.brm.institute/get-involved/join-brm-contributor-network/">BRM Contributor Network</a></li>
+				<li><a href="https://staging.brm.institute/volunteer-opportunities/">Volunteer Opportunities</a></li>
+				<li class="dropdown-header">Network</li>
+				<li><a href="#">Members Directory</a></li>
+				<li><a href="#">Collaborate with Members</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/online-campus#BodyofKnowledge">BRM Body of Knowledge</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://my.brm.institute/books">BRM Publications</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/high-demand-brm-knowledge/">Webinar Symposium</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/online-campus#MemberTemplatesandExamples">Shared Templates and Examples</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/benchmarking/">BRM Benchmark</a></li>
+			  </ul>
+			</li>
+		  </ul>
 
-<!-- BEGIN CAREER MEGA_MENU -->			
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">					
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://jobs.brm.institute/login/?goto=%2Faccount%2F&amp;msg=1">Job Seekers</a></li>							
-								<li><a href="https://jobs.brm.institute/jobseeker/search/results/">Find a Job</a></li>
-								<li><a href="#">Job Summaries and Salaries</a></li>
-								<li><a href="#">Coaching and Mentoring</a></li>
-							</ul>
-						</li>	
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://jobs.brm.institute/employer/login/?goto=%2Femployer%2Fmy-account%2F">Employers</a></li>
-								<li><a href="https://jobs.brm.institute/employer/login/?goto=%2Femployer%2Fpost%2F">Post a Job</a></li>
-								<li><a href="#">BRM Job Description Templates</a></li>
-								<li><a href="#">BRM Staffing and Executive Recruitment</a></li>
-								<li><a href="#">Trends in BRM Employment</a></li>
-							</ul>
-						</li>					
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header">Featured Career Tool</li>
-								<li><a href="#"><img src="https://my.brm.institute/images/62efd608-78c9-4aa1-a2d7-4786c5692f90.img" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
-								<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
-								<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>	
-<!-- END CAREER MEGA_MENU -->	
+		</li>
+		<!-- END RESOURCES MEGA_MENU -->
 
-<!-- BEGIN MEMBERSHIP MEGA_MENU -->				
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">					
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://my.brm.institute/ind-plans">Individual Membership</a></li>							
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Prof&amp;z558b4e4feee144ab983653af4dd716d1=00Prof">Professional Membership</a></li>
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Stud&amp;z558b4e4feee144ab983653af4dd716d1=00Stud">Student Membership</a></li>
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
-								<li><a href="#">Explorer Membership</a></li>
-								<li><a href="https://my.brm.institute/ind-plans">Join or Renew as an Individual</a></li>
-							</ul>
-						</li>	
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://my.brm.institute/org-plans">Organizational Membership</a></li>
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp&amp;z558b4e4feee144ab983653af4dd716d1=00Corp">Corporate Membership</a></li>
-								<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>
-								<li><a href="https://my.brm.institute/org-plans">Join or Renew as an Organization</a></li>
-							</ul>
-						</li>					
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/brmi-membership-value-realization-roadmap/">Maximize Your Membership</a></li>
-								<li class="divider"></li>	
-								<li class="dropdown-header"><a href="https://staging.brm.institute/faqs/">Membership FAQs</a></li>									
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">Membership Directory</a></li>						
-							</ul>	
-						</li>
-					</ul>
-				</li>
-			</ul>									
-<!-- END MEMBERSHIP MEGA_MENU -->	
+		<!-- BEGIN LEARNING MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
 
-<!-- BEGIN ABOUT MEGA_MENU -->	
-			<ul class="nav navbar-nav">
-				<li class="dropdown mega-dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
-					<ul class="dropdown-menu mega-dropdown-menu row">
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/about-business-relationship-management/">Business Relationship Management</a></li>			
-								<li><a href="https://staging.brm.institute/about-business-relationship-management/#Capability">BRM as a Capability</a></li>
-								<li><a href="https://staging.brm.institute/about-business-relationship-management/#Role">BRM as a Role</a></li>
-								<li><a href="https://staging.brm.institute/about-business-relationship-management/#Discipline">BRM as a Discipline</a></li>
-								<li><a href="#">BRM as a Philosophy</a></li>		
-							</ul>
-						</li>
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="#">BRM Institute</a></li>	
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/notices/">Policies</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/registered-providers/">Registered Providers</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="https://staging.brm.institute/strategic-alliance-partners/">Strategic Alliances</a></li>		
-							</ul>
-						</li>								
-						<li class="col-sm-4">
-							<ul>
-								<li class="dropdown-header"><a href="#">Member-Based Leadership</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">Board of Directors</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">Knowledge Team</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">BRM Executive Council</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">BRM Council</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header"><a href="#">Regional Ambassadors</a></li>
-							</ul>
-						</li>						
-					</ul>
-				</li>
-			</ul>						
-<!-- END ABOUT MEGA_MENU -->	
-			
-			<ul class="nav navbar-nav navbar-right">
-			
-<!-- BEGIN MARKETPLACE MENU -->				
-				<li class="dropdown"><a class="dropdown-toggle" href="#">Marketplace<span class="caret"></span></a>	
-					<ul class="dropdown-menu">
-					  <li><a href="https://my.brm.institute/books">Publications</a></li>
-					  <li><a href="https://my.brm.institute/memberships">Memberships</a></li>
-					  <li><a href="https://my.brm.institute/events">Events</a></li>
-					  <li class="divider"></li>
-					  <li><a href="https://my.brm.institute/brm-marketplace">Full Marketplace</a></li>
-					</ul>	
-				</li>
-<!-- END MARKETPLACE MENU -->	
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://staging.brm.institute/events/" target=" _blank" class="dropdown-header">Scheduled Courses and Workshops</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=31834&amp;view=posterboard" target=" _blank">BRM Executive Brief</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27093&amp;view=posterboard" target=" _blank">BRM Fundamentals</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27083&amp;view=posterboard" target=" _blank">BRMP<sup>®</sup></a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27086&amp;view=posterboard" target=" _blank">CBRM<sup>®</sup></a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27092&amp;view=posterboard" target=" _blank">Strategic Partnering Approach</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27094&amp;view=posterboard" target=" _blank">Becoming a Value-Focused Organization</a></li>
+				<li><a href="https://staging.brm.institute/events/" target=" _blank" class="dropdown-header">Global Event Calender</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27081&amp;view=posterboard" target=" _blank">BRM Institute Webinars</a></li>
+				<li><a href="https://staging.brm.institute/events/#categories=27090&amp;view=posterboard" target=" _blank">BRM Networking Events</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li class="dropdown-header">Knowledge Offerings: The Path to Success</li>
+				<li><a href="https://staging.brm.institute/professional-development/business-relationship-management-executive-brief/">BRM Executive Brief</a></li>
+				<li><a href="https://staging.brm.institute/professional-development/brm-fundamentals/">BRM Fundamentals</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/professional-development/business-relationship-management-professional-brmp/">BRMP<sup>®</sup> Foundations Certification</a></li>
+				<li><a href="https://staging.brm.institute/professional-development/certified-business-relationship-manager-cbrm/">CBRM<sup>®</sup> Practitioner Certification</a></li>
+				<li><a href="https://staging.brm.institute/cbrm-cpd-expectations/">Continuing Professional Development (CPDs)</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/professional-development/strategic-partnering-approach/">Strategic Partnering Approach</a></li>
+				<li><a href="https://staging.brm.institute/professional-development/becoming-value-focused-organization/">Becoming a Value-Focused Organization</a></li>
+				<li><a href="https://staging.brm.institute/professional-development/business-value-ability-organization-assessment/">Business Value Ability: Organization Assessment</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/certificate-of-experience/">BRM Certificates of Experience</a></li>
+				<li><a href="https://staging.brm.institute/professional-development/master-of-business-relationship-management-mbrm/">MBRM<sup>®</sup> Master of BRM</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li class="dropdown-header">Registered Providers of BRM Knowledge Offerings</li>
+				<li><a href="#">Search for a Registered Provider</a></li>
+				<li><a href="https://staging.brm.institute/request-for-training-proposal/ ">Request a Proposal from a Registered Provider</a></li>
+				<li><a href="https://staging.brm.institute/rcp-and-rlp-programs/">Become a Registered Provider</a></li>
+				<li><br><br></li>
+				<li><a href="https://staging.brm.institute/online-campus#BodyofKnowledge"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>
+			  </ul>
+			</li>
 
-				<li><a href="https://my.brm.institute/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+		  </ul>
+
+		</li>
+		<!-- END LEARNING MEGA_MENU -->
+
+		<!-- BEGIN PROGRAMS MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://staging.brm.institute/brmconnect-events/" class="dropdown-header">BRMConnect 2019: New Orleans</a></li>
+				<li><a href="https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
+				<li><a href="https://my.brm.institute/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
+				<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
+				<li><a href="https://staging.brm.institute/brmconnect-events/#ACCOMMODATIONS">Venue</a></li>
+				<li><a class="dropdown-header" href="https://my.brm.institute/brmconnect-offerings">Knowledge Offerings at BRMConnect 2019</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BRMP&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.SPA&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.FUND&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.CBRM&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z516f79e45f72499ab180366410196746=00BC.BVFO&amp;ze1c2d8100f0e4887adf8f478d08d9327=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>
+				<li class="dropdown-header"><a href="#" class="dropdown-header">BRMConnect Sponsors</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/benchmarking/">BRM Benchmarking</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header"><a href="#" class="dropdown-header">Awards and Recognition</a></li>
+				<li><a href="https://staging.brm.institute/nominate-a-brm/">Nominate a BRM</a></li>
+				<li><a href="https://staging.brm.institute/arnie-award/">The Arnie Award</a></li>
+				<li><a href="https://staging.brm.institute/brmlegend-award/">Global BRM Community Excellence Awards</a></li>
+				<li><a href="https://staging.brm.institute/top-brms/">Top BRMs</a></li>
+				<li><a href="https://staging.brm.institute/team_role/honorary-fellows/">BRM Fellows</a></li>
 				
-<!-- BEGIN HELP MENU -->					
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
-					<ul class="dropdown-menu">
-					  <li><a href="https://staging.brm.institute/faqs/">FAQs</a></li>
-					  <li><a href="#">Intellectual Property Request</a></li>
-					  <li><a href="#">Contact BRM Institute</a></li>
-					</ul>
-				</li>
-<!-- END HELP MENU -->	
+				<li class="divider"></li>
+				<li class="dropdown-header"><a href="https://staging.brm.institute/events/" target=" _blank" class="dropdown-header">Global Calendar</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li class="dropdown-header">Featured Event</li>
+				<li><a href="https://staging.brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
+				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
+			  </ul>
+			</li>
+		  </ul>
 
-<!-- BEGIN USER MENU -->	
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" title="User">{{CurrentUserName}}<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-					  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
-					  <li><a href="https://my.brm.institute/account/logout.aspx">Logout</a></li>
-					  <li><a href="https://my.brm.institute/administration">Admin</a></li>
-					</ul>
-				</li>	
-<!-- END USER MENU -->	
-				
-			</ul>	
-		</div>
-	</nav>
+		</li>
+		<!-- END PROGRAMS MEGA_MENU -->
+
+		<!-- BEGIN CAREER MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
+
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://staging.brm.institute/career/Job-Seekers" class="dropdown-header">Job Seekers</a></li>
+				<li><a href="https://jobs.brm.institute/jobseeker/search/results/">Find a Job</a></li>
+				<li><a href="https://staging.brm.institute/career/Job-Seekers#JobSummariesandSalaries">Job Summaries and Salaries</a></li>
+				<li><a href="https://staging.brm.institute/career/Job-Seekers#CoachingandMentoring">Coaching and Mentoring</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://staging.brm.institute/career/Employers" class="dropdown-header">Employers</a></li>
+				<li><a href="https://jobs.brm.institute/employer/login/?goto=%2Femployer%2Fpost%2F">Post a Job</a></li>
+				<li><a href="https://staging.brm.institute/career/Employers#BRMJobDescriptionTemplates">BRM Job Description Templates</a></li>
+				<li><a href="https://staging.brm.institute/career/Employers#BRMCompensationModels">BRM Compensation Models</a></li>
+				<li><a href="https://staging.brm.institute/career/Employers#BRMStaffingandExecutiveRecruitment">BRM Staffing and Executive Recruitment</a></li>
+				<li><a href="https://staging.brm.institute/career/Employers#TrendsinBRMEmployment">Trends in BRM Employment</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li class="dropdown-header">Featured Career Tool</li>
+				<li><a href="https://staging.brm.institute/benchmarking/"><img src="https://files.mpxlive.com/Uploads/Images/live/brmi/62efd608-78c9-4aa1-a2d7-4786c5692f90.png" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
+				<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
+				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%; background-color:#1c3f6b;" onclick="window.location.href='https://staging.brm.institute/benchmarking/'">Participate Now</button></li>
+			  </ul>
+			</li>
+		  </ul>
+
+		</li>
+		<!-- END CAREER MEGA_MENU -->
+
+		<!-- BEGIN MEMBERSHIP MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
+
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://my.brm.institute/ind-plans" class="dropdown-header">Individual Plans</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Prof&amp;z558b4e4feee144ab983653af4dd716d1=00Prof">Professional Membership</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Stud&amp;z558b4e4feee144ab983653af4dd716d1=00Stud">Student Membership</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>					
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
+				<li><a href="#">Explorer Membership</a></li>
+				<li><a href="https://my.brm.institute/ind-plans">Join or Renew as an Individual</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://my.brm.institute/org-plans" class="dropdown-header">Organizational Plans</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp10.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp10">10PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp50.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp50">50PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp100.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp100">100PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp200.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp200">200PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/org-plans">Join or Renew as an Organization</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a href="https://staging.brm.institute/brmi-membership-value-realization-roadmap/" class="dropdown-header">Maximize Your Membership</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/faqs/" class="dropdown-header">Membership FAQs</a></li>
+				<li class="divider"></li>
+				<li><a href="#" class="dropdown-header">Membership Directory</a></li>
+			  </ul>
+			</li>
+		  </ul>
+
+		</li>
+		<!-- END MEMBERSHIP MEGA_MENU -->
+
+		<!-- BEGIN ABOUT MEGA_MENU -->
+		<li class="dropdown mega-dropdown">
+		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+
+		  <ul class="dropdown-menu mega-dropdown-menu row target">
+			<li class="col-sm-4">
+			  <ul>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/about-business-relationship-management/">Business Relationship Management</a></li>
+				<li><a href="https://staging.brm.institute/about-business-relationship-management/#Capability">BRM as a Capability</a></li>
+				<li><a href="https://staging.brm.institute/about-business-relationship-management/#Role">BRM as a Role</a></li>
+				<li><a href="https://staging.brm.institute/about-business-relationship-management/#Discipline">BRM as a Discipline</a></li>
+				<li><a href="https://staging.brm.institute/about-business-relationship-management#Philosophy">BRM as a Philosophy</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a class="dropdown-header" href="#">BRM Institute</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/notices/" class="dropdown-header">Policies</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/registered-providers/" class="dropdown-header">Registered Providers</a></li>
+				<li class="divider"></li>
+				<li><a href="https://staging.brm.institute/strategic-alliance-partners/" class="dropdown-header">Strategic Alliances</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul>
+				<li><a class="dropdown-header" href="#">Member-Based Leadership</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/board-of-directors/">Board of Directors</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/knowledge-team/">Knowledge Team</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/brminstitute-executive-council/">BRM Executive Council</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/brm-council/">BRM Council</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/regional-ambassadors/">Regional Ambassadors</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</li>
+		<!-- END ABOUT MEGA_MENU -->
+	  </ul>
+	  <!--         RIGHT NAV WAS HERE -->
+	</div>
+	<!-- /.nav-collapse -->
+  </nav>
 </div>
