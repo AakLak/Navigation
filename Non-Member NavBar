@@ -1,11 +1,12 @@
 <!-- NAVBAR for REGISTERED NON-MEMBER USER -->
 
+<impexium:customloginstatus><impexium:authenticatedhtmltemplate>
 <div class="navbar-fixed-top">
   <nav class="navbar navbar-default navbar-upper">
 	<ul class="nav navbar-nav navbar-right">
 	
 	<!-- BEGIN MARKETPLACE MENU -->
-		<li class="dropdown"><a class="dropdown-toggle" href="#">Marketplace<span class="caret"></span></a>
+		<li class="dropdown"><a class="dropdown-toggle">Marketplace<span class="caret"></span></a>
 			<ul class="dropdown-menu">
 			  <li><a href="https://my.brm.institute/books">Publications</a></li>
 			  <li><a href="https://my.brm.institute/memberships">Memberships</a></li>
@@ -16,28 +17,22 @@
 		</li>
 	 <!-- END MARKETPLACE MENU -->
 	 
-	  <li><a href="/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+	  <li><a href="https://my.brm.institute/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 	  
-	<!-- BEGIN HELP MENU -->	  
-	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
 		<ul class="dropdown-menu">
 		  <li><a href="https://staging.brm.institute/faqs/">FAQs</a></li>
 		  <li><a href="https://staging.brm.institute/ip-request/">Intellectual Property Request</a></li>
 		  <li><a href="https://staging.brm.institute/contact/">Contact BRM Institute</a></li>
 		</ul>
 	  </li>
-	<!-- END HELP MENU -->		
-
-	<!-- BEGIN PROFILE MENU -->		
-	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" title="Link: #">Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" title="Link: #">Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
 		<ul class="dropdown-menu">
 		  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
 		  <li><a href="https://my.brm.institute/account/logout.aspx">Logout</a></li>
 		  <li><a href="https://my.brm.institute/administration">Admin</a></li>
 		</ul>
 	  </li>
-	<!-- END PROFILE MENU -->		  
-	  
 	</ul>
   </nav>
   <nav class="navbar navbar-default">
@@ -56,14 +51,14 @@
 	  
 		<!-- BEGIN RESOURCES MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
+		  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 
 			<li class="col-sm-4">
 
 			  <ul>
-				<li><a  class="dropdown-header" href="https://staging.brm.institute/news-events/">Articles</a></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/news-events/">Articles</a></li>
 				<li><a href="https://staging.brm.institute/category/brm_capability/">BRM Capability</a></li>
 				<li><a href="https://staging.brm.institute/category/professional_development/">Professional Development</a></li>
 				<li><a href="https://staging.brm.institute/category/research/">Research</a></li>
@@ -73,13 +68,13 @@
 			</li>
 			<li class="col-sm-4">
 			  <ul>
-				<li><a  class="dropdown-header" href="https://staging.brm.institute/get-involved">Get Involved</a></li>
+				<li><a class="dropdown-header" href="https://staging.brm.institute/get-involved">Get Involved</a></li>
 				<li><a href="https://staging.brm.institute/communities-of-interest/">Communities of Interest</a></li>
 				<li><a href="https://staging.brm.institute/get-involved/join-brm-contributor-network/">BRM Contributor Network</a></li>
 				<li><a href="https://staging.brm.institute/volunteer-opportunities/">Volunteer Opportunities</a></li>
 				<li class="dropdown-header">Network</li>
-				<li><a href="#">Members Directory</a></li>
-				<li><a href="#">Collaborate with Members</a></li>
+				<li><a>Members Directory</a></li>
+				<li><a>Collaborate with Members</a></li>
 			  </ul>
 			</li>
 			<li class="col-sm-4">
@@ -102,7 +97,7 @@
 
 		<!-- BEGIN LEARNING MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -140,7 +135,7 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li class="dropdown-header">Registered Providers of BRM Knowledge Offerings</li>
-				<li><a href="#">Search for a Registered Provider</a></li>
+				<li><a>Search for a Registered Provider</a></li>
 				<li><a href="https://staging.brm.institute/request-for-training-proposal/ ">Request a Proposal from a Registered Provider</a></li>
 				<li><a href="https://staging.brm.institute/rcp-and-rlp-programs/">Become a Registered Provider</a></li>
 				<li><br><br></li>
@@ -155,7 +150,7 @@
 
 		<!-- BEGIN PROGRAMS MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -178,7 +173,7 @@
 			  <ul>
 				<li><a class="dropdown-header" href="https://staging.brm.institute/benchmarking/">BRM Benchmarking</a></li>
 				<li class="divider"></li>
-				<li class="dropdown-header"><a href="#" class="dropdown-header">Awards and Recognition</a></li>
+				<li class="dropdown-header"><a class="dropdown-header">Awards and Recognition</a></li>
 				<li><a href="https://staging.brm.institute/nominate-a-brm/">Nominate a BRM</a></li>
 				<li><a href="https://staging.brm.institute/arnie-award/">The Arnie Award</a></li>
 				<li><a href="https://staging.brm.institute/brmlegend-award/">Global BRM Community Excellence Awards</a></li>
@@ -203,7 +198,7 @@
 
 		<!-- BEGIN CAREER MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -239,7 +234,7 @@
 
 		<!-- BEGIN MEMBERSHIP MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -250,7 +245,7 @@
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>					
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
-				<li><a href="#">Explorer Membership</a></li>
+				<li><a>Explorer Membership</a></li>
 				<li><a href="https://my.brm.institute/ind-plans">Join or Renew as an Individual</a></li>
 			  </ul>
 			</li>
@@ -270,7 +265,7 @@
 				<li class="divider"></li>
 				<li><a href="https://staging.brm.institute/faqs/" class="dropdown-header">Membership FAQs</a></li>
 				<li class="divider"></li>
-				<li><a href="#" class="dropdown-header">Membership Directory</a></li>
+				<li><a class="dropdown-header">Membership Directory</a></li>
 			  </ul>
 			</li>
 		  </ul>
@@ -280,7 +275,7 @@
 
 		<!-- BEGIN ABOUT MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -294,7 +289,7 @@
 			</li>
 			<li class="col-sm-4">
 			  <ul>
-				<li><a class="dropdown-header" href="#">BRM Institute</a></li>
+				<li><a class="dropdown-header">BRM Institute</a></li>
 				<li class="divider"></li>
 				<li><a href="https://staging.brm.institute/notices/" class="dropdown-header">Policies</a></li>
 				<li class="divider"></li>
@@ -305,7 +300,7 @@
 			</li>
 			<li class="col-sm-4">
 			  <ul>
-				<li><a class="dropdown-header" href="#">Member-Based Leadership</a></li>
+				<li><a class="dropdown-header">Member-Based Leadership</a></li>
 				<li class="divider"></li>
 				<li><a class="dropdown-header" href="https://staging.brm.institute/team_role/board-of-directors/">Board of Directors</a></li>
 				<li class="divider"></li>
@@ -327,3 +322,4 @@
 	<!-- /.nav-collapse -->
   </nav>
 </div>
+</impexium:authenticatedhtmltemplate></impexium:customloginstatus>
