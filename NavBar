@@ -34,9 +34,9 @@
 	<!-- END HELP MENU -->		
 
 	<!-- BEGIN PROFILE MENU -->	
-		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx?signup=yes" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		<li class="dropdown BRMImember BRMInonmember"><a class="dropdown-toggle" data-toggle="dropdown" title="Link: #"><i class="BRMImember fas fa-crown" style="margin-right:4px; color:gold;"></i>Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
+		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx?signup=yes"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		<li class="dropdown BRMImember BRMInonmember"><a class="dropdown-toggle" data-toggle="dropdown" title=""><i class="BRMImember fas fa-crown" style="margin-right:4px; color:gold;"></i>Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
 			<ul class="dropdown-menu">
 			  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
 			  <li class="BRMImember"><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Membership</a></li>
@@ -273,10 +273,10 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li><a href="https://my.brm.institute/org-plans" class="dropdown-header">Organizational Plans</a></li>
-				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp10.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp10">10PLUS Corporate Bundle</a></li>
-				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp50.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp50">50PLUS Corporate Bundle</a></li>
-				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp100.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp100">100PLUS Corporate Bundle</a></li>
-				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp200.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp200">200PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/corp-durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp10.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp10">10PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/corp-durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp50.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp50">50PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/corp-durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp100.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp100">100PLUS Corporate Bundle</a></li>
+				<li><a href="https://my.brm.institute/corp-durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp200.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp200">200PLUS Corporate Bundle</a></li>
 			  </ul>
 			</li>
 			<li class="col-sm-4">
