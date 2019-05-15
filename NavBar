@@ -3,7 +3,6 @@
 <!-- USE BRMImember CLASS FOR MEMBER ONLY ELEMENTS -->
 <!-- USE BRMInonmember CLASS FOR NON-MEMBER ONLY ELEMENTS -->
 <!-- DO NOT USE THESE CLASSES FOR ELEMENTS DISPLAYED TO EVERYONE -->
-
 <div class="navbar-fixed-top">
   <nav class="navbar navbar-default navbar-upper">
 	<ul class="nav navbar-nav navbar-right">
@@ -78,7 +77,7 @@
 				<li><a href="https://staging.brm.institute/category/brm-philosophy">BRM as a Philosophy</a></li>
 			  </ul>
 			</li>
-			<li class="col-sm-4">
+			<li class="col-sm-4 right-border">
 			  <ul>
 				<li><a class="dropdown-header" href="https://staging.brm.institute/get-involved">Get Involved</a></li>
 				<li class="BRMIanonymous BRMInonmember"><a href="https://staging.brm.institute/communities-of-interest/">Communities of Interest</a></li>
@@ -272,7 +271,7 @@
 				<li><a href="#">Explorer Membership</a></li>
 			  </ul>
 			</li>
-			<li class="col-sm-4">
+			<li class="col-sm-4 right-border">
 			  <ul>
 				<li><a href="https://my.brm.institute/org-plans" class="dropdown-header">Organizational Plans</a></li>
 				<li><a href="https://my.brm.institute/corp-durations?z35176a18ecd04796a53bc9ecb04a3f45=06Corp10.&amp;z558b4e4feee144ab983653af4dd716d1=00Corp10">10PLUS Corporate Bundle</a></li>
@@ -300,7 +299,7 @@
 		  <a class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
-			<li class="col-sm-4">
+			<li class="col-sm-4 right-border">
 			  <ul>
 				<li><a class="dropdown-header" href="https://staging.brm.institute/about-business-relationship-management/">Business Relationship Management</a></li>
 				<li><a href="https://staging.brm.institute/about-business-relationship-management/#Capability">BRM as a Capability</a></li>
@@ -309,7 +308,7 @@
 				<li><a href="https://staging.brm.institute/about-business-relationship-management#Philosophy">BRM as a Philosophy</a></li>
 			  </ul>
 			</li>
-			<li class="col-sm-4">
+			<li class="col-sm-4 right-border">
 			  <ul>
 				<li><a class="dropdown-header" href="#">BRM Institute</a></li>
 				<li class="divider"></li>
