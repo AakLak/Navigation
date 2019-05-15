@@ -9,7 +9,7 @@
 	<ul class="nav navbar-nav navbar-right">
 	
 	<!-- BEGIN MARKETPLACE MENU -->
-		<li class="dropdown"><a class="dropdown-toggle" href="#">Marketplace<span class="caret"></span></a>
+		<li class="dropdown"><a class="dropdown-toggle">Marketplace<span class="caret"></span></a>
 			<ul class="dropdown-menu">
 			  <li><a href="https://my.brm.institute/books">Publications</a></li>
 			  <li><a href="https://my.brm.institute/memberships">Memberships</a></li>
@@ -23,7 +23,7 @@
 		<li><a href="/brm-cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 	  
 	<!-- BEGIN HELP MENU -->	  
-		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
+		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span><span class="caret"></span></a>
 			<ul class="dropdown-menu">
 			  <li><a href="https://staging.brm.institute/faqs/">FAQs</a></li>
 			  <li><a href="https://staging.brm.institute/ip-request/">Intellectual Property Request</a></li>
@@ -63,7 +63,7 @@
 	  
 		<!-- BEGIN RESOURCES MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Resources<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 
@@ -117,7 +117,7 @@
 
 		<!-- BEGIN LEARNING MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Learning<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -159,7 +159,8 @@
 				<li><a href="https://staging.brm.institute/request-for-training-proposal/ ">Request a Proposal from a Registered Provider</a></li>
 				<li><a href="https://staging.brm.institute/rcp-and-rlp-programs/">Become a Registered Provider</a></li>
 				<li><br><br></li>
-				<li><a href="https://staging.brm.institute/online-campus#BodyofKnowledge"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>
+				<li class="BRMIanonymous BRMInonmember"><a href="https://staging.brm.institute/online-campus#BodyofKnowledge"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>
+				<li class="BRMImember"><a href="https://campus.brm.institute/x/tgCnAQ"><img src="https://my.brm.institute/images/7b26074e-9180-4b27-80bb-6f0c1846ce6b.img" class="img-responsive" title="BRMBOK" style="width: 350px;"></a></li>
 			  </ul>
 			</li>
 
@@ -170,7 +171,7 @@
 
 		<!-- BEGIN PROGRAMS MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Programs<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -191,7 +192,8 @@
 			</li>
 			<li class="col-sm-4">
 			  <ul>
-				<li><a class="dropdown-header" href="https://staging.brm.institute/benchmarking/">BRM Benchmarking</a></li>
+				<li class="BRMImember"><a class="dropdown-header" href="https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking">BRM Benchmarking</a></li>
+				<li class="BRMIanonymous BRMInonmember"><a class="dropdown-header" href="https://staging.brm.institute/benchmarking/">BRM Benchmarking</a></li>
 				<li class="divider"></li>
 				<li class="dropdown-header"><a href="#" class="dropdown-header">Awards and Recognition</a></li>
 				<li><a href="https://staging.brm.institute/nominate-a-brm/">Nominate a BRM</a></li>
@@ -218,7 +220,7 @@
 
 		<!-- BEGIN CAREER MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Career<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -256,7 +258,7 @@
 
 		<!-- BEGIN MEMBERSHIP MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">Membership<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
@@ -295,7 +297,7 @@
 
 		<!-- BEGIN ABOUT MEGA_MENU -->
 		<li class="dropdown mega-dropdown">
-		  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+		  <a class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
