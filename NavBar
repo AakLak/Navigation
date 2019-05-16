@@ -33,7 +33,7 @@
 	<!-- END HELP MENU -->		
 
 	<!-- BEGIN PROFILE MENU -->	
-		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx?signup=yes&amp;RedirectURL=" onclick="location.href=this.href+window.location.href;return false;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx?signup=yes"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 		<li class="BRMIanonymous"><a href="https://my.brm.institute/account/login.aspx?RedirectURL=" onclick="location.href=this.href+window.location.href;return false;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 		<li class="dropdown BRMImember BRMInonmember"><a class="dropdown-toggle" data-toggle="dropdown" title=""><i class="BRMImember fas fa-crown" style="margin-right:4px; color:gold;"></i>Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
 			<ul class="dropdown-menu">
