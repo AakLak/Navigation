@@ -38,7 +38,8 @@
 		<li class="dropdown BRMImember BRMInonmember"><a class="dropdown-toggle" data-toggle="dropdown" title=""><i class="BRMImember fas fa-crown" style="margin-right:4px; color:gold;"></i>Hi {{CurrentUserFirstName}}<span class="caret"></span></a>
 			<ul class="dropdown-menu">
 			  <li><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Profile</a></li>
-			  <li class="BRMImember"><a href="https://my.brm.institute/my-brm-profile?tab=personalinfo">My Membership</a></li>
+			  <li class="BRMImember"><a href="https://my.brm.institute/my-membership">My Membership</a></li>
+			  <li class="BRMInonmember"><a href="https://my.brm.institute/explorer">My Membership</a></li>
 			  <li><a href="https://my.brm.institute/account/logout.aspx">Logout</a></li>
 			</ul>
 	  </li>
