@@ -291,8 +291,8 @@
 				<li><a href="https://brm.institute/brmi-membership-value-realization-roadmap/" class="dropdown-header">Maximize Your Membership</a></li>
 				<li class="divider"></li>
 				<li><a href="https://brm.institute/faqs/" class="dropdown-header">Membership FAQs</a></li>
-				<li class="divider"></li>
-				<li><a href="#" class="dropdown-header">Membership Directory</a></li>
+				<li class="divider BRMImember"></li>
+				<li class="BRMImember"><a href="https://my.brm.institute/directory" class="dropdown-header">Membership Directory</a></li>
 			  </ul>
 			</li>
 		  </ul>
