@@ -6,7 +6,11 @@
 <div class="navbar-fixed-top">
   <nav class="navbar navbar-default navbar-upper">
 	<ul class="nav navbar-nav navbar-right">
-	
+	<!-- BEGIN SEARCH  -->
+	<li>
+		<input id="menu-search" type="search" placeholder="Search" onkeyup="doSearch();">
+	</li>
+	<!-- END SEARCH -->
 	<!-- BEGIN MARKETPLACE MENU -->
 		<li class="dropdown"><a class="dropdown-toggle">Marketplace<span class="caret"></span></a>
 			<ul class="dropdown-menu">
@@ -179,12 +183,13 @@
 				<li><a href="https://staging.brm.institute/brmconnect-events/" class="dropdown-header">BRMConnect 2019: New Orleans</a></li>
 				<li><a href="https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
 				<li><a href="https://my.brm.institute/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
+				<li><a href="https://my.brm.institute/tracks?ze99f52dfd1fd4b5d9d881fe76638b68e=00BC.T.Expl">Tracks</a></li>
 				<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
 				<li><a href="https://staging.brm.institute/brmconnect-events/#ACCOMMODATIONS">Venue</a></li>
 				<li><a class="dropdown-header" href="https://my.brm.institute/brmconnect-offerings">Knowledge Offerings at BRMConnect 2019</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.BRMP&z516f79e45f72499ab180366410196746=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.SPA&z516f79e45f72499ab180366410196746=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.FUND&z516f79e45f72499ab180366410196746=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.BRMP&amp;z516f79e45f72499ab180366410196746=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.SPA&amp;z516f79e45f72499ab180366410196746=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
+				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.FUND&amp;z516f79e45f72499ab180366410196746=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
 				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.CBRM&amp;z516f79e45f72499ab180366410196746=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
 				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.BVFO&amp;z516f79e45f72499ab180366410196746=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>
 				<li class="dropdown-header"><a href="https://staging.brm.institute/brmconnect-events/#SPONSORS" class="dropdown-header">BRMConnect Sponsors</a></li>
