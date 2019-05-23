@@ -215,7 +215,7 @@
 			  <ul>
 				<li class="dropdown-header">Featured Event</li>
 				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100%; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
+				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
 			  </ul>
 			</li>
 		  </ul>
@@ -253,7 +253,7 @@
 				<li class="BRMImember"><a href="https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking"><img src="https://files.mpxlive.com/Uploads/Images/live/brmi/62efd608-78c9-4aa1-a2d7-4786c5692f90.png" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>				
 				<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
 				<li class="BRMIanonymous BRMInonmember"><button type="button" class="btn btn-primary margin-top-5" style="width:100%; background-color:#1c3f6b;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
-				<li class="BRMImember"><button type="button" class="btn btn-primary margin-top-5" style="width:100%; background-color:#1c3f6b;" onclick="window.location.href='https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking'">Participate Now</button></li>
+				<li class="BRMImember"><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking'">Participate Now</button></li>
 			  </ul>
 			</li>
 		  </ul>
