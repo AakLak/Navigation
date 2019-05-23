@@ -91,9 +91,9 @@
 				<li class="BRMIanonymous BRMInonmember"><a href="https://brm.institute/volunteer-opportunities/">Volunteer Opportunities</a></li>
 				<li class="BRMImember"><a href="https://campus.brm.institute/x/KwAs">Volunteer Center</a></li>
 				<li class="dropdown-header">Network</li>
-				<li><a href="#">Members Directory</a></li>
+				<li class="BRMImember"><a href="https://my.brm.institute/directory">Members Directory</a></li>
 				<li class="BRMImember"><a href="https://campus.brm.institute/">Online Campus Dashboard</a></li>
-				<li class="BRMIanonymous BRMInonmember"><a href="#">Collaborate with Members</a></li>
+				<li class="BRMIanonymous BRMInonmember"><a href="https://brm.institute/membership-benefits/">Collaborate with Members</a></li>
 				<li class="BRMImember"><a href="https://campus.brm.institute/x/sgBVB">Member Hangout</a></li>
 			  </ul>
 			</li>
