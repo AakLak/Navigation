@@ -274,7 +274,7 @@
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Aca&amp;z558b4e4feee144ab983653af4dd716d1=00Aca">Academic Instructor Membership</a></li>
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06RPATO&amp;z558b4e4feee144ab983653af4dd716d1=00RPATO">Registered Provider Membership</a></li>					
 				<li><a href="https://my.brm.institute/durations?z35176a18ecd04796a53bc9ecb04a3f45=06Ret&amp;z558b4e4feee144ab983653af4dd716d1=00Ret">Retired Individual Membership</a></li>
-				<li><a href="#">Explorer Membership</a></li>
+				<li class="BRMIanonymous BRMInonmember"><a href="https://my.brm.institute/explorer-membership">Explorer Membership</a></li>
 			  </ul>
 			</li>
 			<li class="col-sm-4 right-border">
