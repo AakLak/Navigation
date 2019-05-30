@@ -159,7 +159,7 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li class="dropdown-header">Registered Providers of BRM Knowledge Offerings</li>
-				<li><a href="#">Search for a Registered Provider</a></li>
+				<li><a href="https://brm.institute/registered-providers/">Search for a Registered Provider</a></li>
 				<li><a href="https://brm.institute/request-for-training-proposal/ ">Request a Proposal from a Registered Provider</a></li>
 				<li><a href="https://brm.institute/rcp-and-rlp-programs/">Become a Registered Provider</a></li>
 				<li><br><br></li>
@@ -241,7 +241,6 @@
 				<li><a href="https://brm.institute/career/Employers" class="dropdown-header">Employers</a></li>
 				<li><a href="https://jobs.brm.institute/employer/login/?goto=%2Femployer%2Fpost%2F">Post a Job</a></li>
 				<li><a href="https://brm.institute/career/Employers#BRMJobDescriptionTemplates">BRM Job Description Templates</a></li>
-				<li><a href="https://brm.institute/career/Employers#BRMCompensationModels">BRM Compensation Models</a></li>
 				<li><a href="https://brm.institute/career/Employers#BRMStaffingandExecutiveRecruitment">BRM Staffing and Executive Recruitment</a></li>
 				<li><a href="https://brm.institute/career/Employers#TrendsinBRMEmployment">Trends in BRM Employment</a></li>
 			  </ul>
@@ -251,7 +250,7 @@
 				<li class="dropdown-header">Featured Career Tool</li>
 				<li class="BRMIanonymous BRMInonmember"><a href="https://brm.institute/benchmarking/"><img src="https://files.mpxlive.com/Uploads/Images/live/brmi/62efd608-78c9-4aa1-a2d7-4786c5692f90.png" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>
 				<li class="BRMImember"><a href="https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking"><img src="https://files.mpxlive.com/Uploads/Images/live/brmi/62efd608-78c9-4aa1-a2d7-4786c5692f90.png" class="img-responsive" title="BRM Benchmark" style="width: 350px;"></a></li>				
-				<li>Every BRM Benchmark respondant receives a complimentary BRM Compensation Report</li>
+				<li>Every BRM Benchmark respondent receives a complimentary BRM Compensation Report</li>
 				<li class="BRMIanonymous BRMInonmember"><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://brm.institute/benchmarking/'">Participate Now</button></li>
 				<li class="BRMImember"><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://campus.brm.institute/display/BRMBenchmarking/BRM+Benchmarking'">Participate Now</button></li>
 			  </ul>
@@ -327,7 +326,7 @@
 			</li>
 			<li class="col-sm-4">
 			  <ul>
-				<li><a class="dropdown-header" href="#">Member-Based Leadership</a></li>
+				<li><a class="dropdown-header" href="https://brm.institute/leadership/">Member-Based Leadership</a></li>
 				<li class="divider"></li>
 				<li><a class="dropdown-header" href="https://brm.institute/team_role/board-of-directors/">Board of Directors</a></li>
 				<li class="divider"></li>
