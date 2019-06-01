@@ -181,7 +181,7 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li><a href="https://brm.institute/brmconnect-events/" class="dropdown-header">BRMConnect 2019: New Orleans</a></li>
-				<li><a href="https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a">Register</a></li>
+				<li><a href="https://my.brm.institute/brm-events/brmconnect">Register</a></li>
 				<li><a href="https://my.brm.institute/sessions?zb972905c0ef248ef8e91d7f2ddd6686f=1310%2f1%2f2019+12%3a00%3a00+AM">Agenda</a></li>
 				<li><a href="https://my.brm.institute/tracks?ze99f52dfd1fd4b5d9d881fe76638b68e=00BC.T.Expl">Tracks</a></li>
 				<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
@@ -215,7 +215,7 @@
 			  <ul>
 				<li class="dropdown-header">Featured Event</li>
 				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect-registration/?id=c0d64fa0-0f2f-e911-9461-0003ff52f79a'">Register Now</button></li>
+				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect'">Register Now</button></li>
 			  </ul>
 			</li>
 		  </ul>
