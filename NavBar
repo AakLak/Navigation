@@ -214,8 +214,7 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li class="dropdown-header">Featured Event</li>
-				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect'">Register Now</button></li>
+				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://brm.institute/wp-content/uploads/BRMConnect-World-Logo.png" class="img-responsive" title="BRMConnect 2019" style="width: 350px;margin:0 auto;"></a></li>
 			  </ul>
 			</li>
 		  </ul>
