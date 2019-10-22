@@ -180,19 +180,9 @@
 		  <ul class="dropdown-menu mega-dropdown-menu row target">
 			<li class="col-sm-4">
 			  <ul>
-				<li><a href="https://brm.institute/brmconnect-events/" class="dropdown-header">BRMConnect 2019: New Orleans</a></li>
-				<li><a href="https://my.brm.institute/brm-events/brmconnect">Register</a></li>
-				<li><a href="https://my.brm.institute/sessions">Agenda</a></li>
-				<li><a href="https://my.brm.institute/tracks?ze99f52dfd1fd4b5d9d881fe76638b68e=00BC.T.Expl">Tracks</a></li>
-				<li><a href="https://my.brm.institute/storytellers">Storytellers</a></li>
-				<li><a href="https://brm.institute/brmconnect-events/#ACCOMMODATIONS">Venue</a></li>
-				<li><a class="dropdown-header" href="https://my.brm.institute/brmconnect-offerings">Knowledge Offerings at BRMConnect 2019</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.BRMP&amp;z516f79e45f72499ab180366410196746=00BC.BRMP">BRMP<sup>®</sup> (Pre-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.SPA&amp;z516f79e45f72499ab180366410196746=00BC.SPA">Strategic Partnering Approach Workshop (Pre-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.FUND&amp;z516f79e45f72499ab180366410196746=00BC.FUND">BRM Fundamentals (Pre-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.CBRM&amp;z516f79e45f72499ab180366410196746=00BC.CBRM">CBRM<sup>®</sup> (Post-Conference)</a></li>
-				<li><a href="https://my.brm.institute/session-detail?z5c14db16054140609e1f8e6b3dfcc2ef=00BC.BVFO&amp;z516f79e45f72499ab180366410196746=00BC.BVFO">Becoming a Value-Focused Organization (Post-Conference)</a></li>
-				<li class="dropdown-header"><a href="https://brm.institute/brmconnect-events/#SPONSORS" class="dropdown-header">BRMConnect Sponsors</a></li>
+				<li><a href="https://brm.institute/brmconnect-events/" class="dropdown-header">BRMConnect 2020</a></li>
+				<li><a href="https://brm.institute/brmconnect-boston/">Boston</a></li>
+				<li><a href="https://brm.institute/brmconnect-amsterdam/">Amsterdam</a></li>
 			  </ul>
 			</li>
 			<li class="col-sm-4">
@@ -206,6 +196,7 @@
 				<li><a href="https://brm.institute/brmlegend-award/">Global BRM Community Excellence Awards</a></li>
 				<li><a href="https://brm.institute/top-brms/">Top BRMs</a></li>
 				<li><a href="https://brm.institute/team_role/honorary-fellows/">BRM Fellows</a></li>
+				<li><a href="https://brm.institute/brm-pins-program/">BRM Pins Program</a></li>
 				
 				<li class="divider"></li>
 				<li class="dropdown-header"><a href="https://brm.institute/events/" target=" _blank" class="dropdown-header">Global Calendar</a></li>
@@ -214,9 +205,8 @@
 			<li class="col-sm-4">
 			  <ul>
 				<li class="dropdown-header">Featured Event</li>
-				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://my.brm.institute/images/ac6d714e-d925-4531-b878-92b9cf9c51ca.img" class="img-responsive" title="BRMConnect 2019" style="width: 350px;"></a></li>
-				<li><button type="button" class="btn btn-primary margin-top-5" style="width:100% !important; background-color:#1c3f6b;" onclick="window.location.href='https://my.brm.institute/brm-events/brmconnect'">Register Now</button></li>
-			  </ul>
+				<li><a href="https://brm.institute/brmconnect-events/"><img src="https://brm.institute/wp-content/uploads/BRMConnect-World-Logo.png" class="img-responsive" title="BRMConnect 2020" style="width: 350px;margin:0 auto;"></a></li>
+				</ul>
 			</li>
 		  </ul>
 
@@ -311,6 +301,8 @@
 				<li><a href="https://brm.institute/about-business-relationship-management/#Role">BRM as a Role</a></li>
 				<li><a href="https://brm.institute/about-business-relationship-management/#Discipline">BRM as a Discipline</a></li>
 				<li><a href="https://brm.institute/about-business-relationship-management#Philosophy">BRM as a Philosophy</a></li>
+				<li class="divider"></li>
+				<li><a class="dropdown-header" href="https://brm.institute/relationshipism/">Relationshipism</a></li>
 			  </ul>
 			</li>
 			<li class="col-sm-4 right-border">
